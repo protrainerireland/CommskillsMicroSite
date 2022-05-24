@@ -10,112 +10,39 @@
             "id": "banner", 
             "link": "no", 
             "type": "banner", 
-            "title": "JavaScript Training Courses Ireland", 
-            "subtitle": "Contact Us for all your JavaScript training requirements", 
+            "title": "Communication Skills Training Courses Ireland", 
+            "subtitle": "Contact us for all your Communication Skills training requirements", 
             "background": "img/ground@-min.png",
             "image": "svg/onlineclass.svg"
-        }, 
-        {
-            "id": "services", 
-            "link": "/#services", 
-            "text": "Services", 
-            "title": "Services", 
-            "type": "grid", 
-            "items":[
-                {
-                    "title": "Landing Page Development", 
-                    "text": "lorem ipsum", 
-                    "image": "/svg/Design collaboration.svg", 
-                    "link": "" 
-                }, 
-                {
-                    "title": "Online Branding", 
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", 
-                    "image": "/svg/branding.svg", 
-                    "link": ""
-                }, 
-                {
-                    "title": "Google Ads", 
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", 
-                    "image": "/svg/ads.svg", 
-                    "link": ""
-                }, 
-                {
-                    "title": "PPC", 
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    "image": "/svg/undraw_Savings_dwkw.svg", 
-                    "link": ""
-                }, 
-                {
-                    "title": "Social Media",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", 
-                    "image": "/svg/Social dilemma.svg", 
-                    "link": ""
-                }, 
-                {
-                    "title": "SEO", 
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", 
-                    "image": "/svg/Code Version Control.svg"
-                }
-            ], 
-            "animation": {
-                "offset": 200
-            }
-            
         },
         {
             "id": "keywordtext",
             "link": "/#keywordtext", 
-            "text": "Info", 
-            "title": "Info", 
+            "text": "About", 
+            "title": "About", 
             "type": "keywordtext",
             "image": "/svg/Code Version Control.svg", 
             "imagePosition": "right",
-            "content":{
-                "title": "hello"
+            "content":{ 
+                "title": "Using your business communication skills effectively...",
+                "text": "Business communication skills include traits that help professionals convey information in the workplace. These skills encompass primary forms of communication like active listening, along with communication techniques that are necessary to build professional relationships, like negotiation and networking skills. Communication skills in business are important for supporting team collaboration, giving and receiving clear feedback and encouraging creativity. Additionally, using your business communication skills effectively can show your employer how you interact with others, initiate activities and achieve results."
             }
         },
         {
-            "id": "about",
-            "link": "/#about", 
-            "text": "About", 
-            "title": "About", 
-            "type": "listwithimage", 
+            "id": "summary",
+            "link": "/#summary", 
+            "text": "Why Attend?", 
+            "title": "Why Attend?", 
+            "type": "summary",
+            "image": "", 
+            "imagePosition": "right",
             "content":{
-                "title": "Odio sed id eos et laboriosam consequatur eos earum soluta.", 
-                "list":[
-                    "Sint aliquam consequatur ex ex labore.", 
-                    "Duis aute irure dolor in reprehenderit in voluptate velit.", 
-                    "Aspernatur consectetur omnis numquam quaerat.", 
-                    "Et vel ut quidem alias veritatis repudiandae ut fugit.", 
-                    "Fugit ut maxime incidunt accusantium totam repellendus eum error.", 
-                    "Ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                ], 
-                "image": "svg/undraw_mobile_marketing.svg"
-            }
-        }, 
-        {
-            "id": "testimonials", 
-            "link": "/#testimonials", 
-            "text": "Testimonials", 
-            "type": "quotes", 
-            "content": {
-                "title": "Testimonials", 
-                "quotes":[
-                    {
-                        "name": "Carol", 
-                        "jobtitle": "CEO at DIN", 
-                        "image": "/img/testimonials/carol.png", 
-                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
-                    }, 
-                    {
-                        "name": "Fred", 
-                        "jobtitle": "Co-founder at ArtSpace", 
-                        "image": "/img/testimonials/fred.JPEG", 
-                        "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                    }
-                ]
+                "title": "Why attend one of our Communication Skills courses?",
+                "text1": "Additionally, developing your business communication techniques is advantageous for advancing on the job. Our courses encompass a very broad range of business communication skills, how you can improve them and how you can highlight these skills in the workplace.",
+                "text2": "<a href=/courses>Our courses</a> are highly participative and constantly seek to anchor the skills and knowledge in the participants work situation.  People learn by best by doing and the content will combine generic learning inputs with smart practice using predefined exercises and referencing documents and situations specific to the client organisation where possible."
             }
         }
+         
+        
     ] 
 }

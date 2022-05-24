@@ -323,6 +323,34 @@ module.exports = {
                         </section>`;
                 break;
 
+                case "summary":
+
+                    html = `<section id="${section.id}" class="section">
+                        <div class="container">
+                        <h3 class="title text-center">${ section.title }</h3>
+                        <div class="row ${section.imagePosition=="left" ? "flex-row-reverse" :""}">
+                            <div class="${section.image ? 'col-md-6' : 'col-md-12'} about"
+                            data-aos="fade-left" ${ animationDelay } ${animationOffset}
+                            data-aos-anchor="#${section.id}"
+                            >
+                            <p class="about-title">${ section.content.title }</p>
+                            <p>${ section.content.text1 }</p>
+                            <p>${ section.content.text2 }</p>
+                            </div>`;
+                        if (section.image) {
+                            html += `<div class="col-md-6"
+                                    data-aos="fade-right" ${ animationDelay }  ${animationOffset}
+                                    data-aos-anchor="#${section.id}"
+                            >
+                                        <img src="${ section.image }" class="img-fluid" alt="">
+                                    </div>`;
+                        }    
+        
+                    html += `</div>
+                        </div>
+                    </section>`;
+                    break;
+
             case 'pricing':
 
                 let prices = section.content.prices.map((price, index) => {
