@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "searchKeywords": ["Communications Skills"],
+=======
+    "searchKeywords": ["Angular"],
+>>>>>>> ade9f271b57d44ce03ace8b4c341d866c109f6d2
     "searchLocations": ["Dublin", "Cork", "Limerick", "Ireland"],
     "homepageTitle": "Training Courses - Dublin Cork Limerick Ireland", 
     "organisation": {
