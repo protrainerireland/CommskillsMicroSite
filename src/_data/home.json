@@ -25,7 +25,9 @@
             "imagePosition": "right",
             "content":{ 
                 "title": "Using your business communication skills effectively...",
-                "text": "Business communication skills include traits that help professionals convey information in the workplace. These skills encompass primary forms of communication like active listening, along with communication techniques that are necessary to build professional relationships, like negotiation and networking skills. Communication skills in business are important for supporting team collaboration, giving and receiving clear feedback and encouraging creativity. Additionally, using your business communication skills effectively can show your employer how you interact with others, initiate activities and achieve results."
+                "text":[
+                    "Business communication skills include traits that help professionals convey information in the workplace. These skills encompass primary forms of communication like active listening, along with communication techniques that are necessary to build professional relationships, like negotiation and networking skills. Communication skills in business are important for supporting team collaboration, giving and receiving clear feedback and encouraging creativity. Additionally, using your business communication skills effectively can show your employer how you interact with others, initiate activities and achieve results."
+                ]
             }
         },
         {
@@ -33,13 +35,15 @@
             "link": "/#summary", 
             "text": "Why Attend?", 
             "title": "Why Attend?", 
-            "type": "summary",
+            "type": "keywordtext",
             "image": "", 
             "imagePosition": "right",
             "content":{
                 "title": "Why attend one of our Communication Skills courses?",
-                "text1": "Additionally, developing your business communication techniques is advantageous for advancing on the job. Our courses encompass a very broad range of business communication skills, how you can improve them and how you can highlight these skills in the workplace.",
-                "text2": "<a href=/courses>Our courses</a> are highly participative and constantly seek to anchor the skills and knowledge in the participants work situation.  People learn by best by doing and the content will combine generic learning inputs with smart practice using predefined exercises and referencing documents and situations specific to the client organisation where possible."
+                "text":[
+                    "Additionally, developing your business communication techniques is advantageous for advancing on the job. Our courses encompass a very broad range of business communication skills, how you can improve them and how you can highlight these skills in the workplace.",
+                    "<a href=/courses>Our courses</a> are highly participative and constantly seek to anchor the skills and knowledge in the participants work situation.  People learn by best by doing and the content will combine generic learning inputs with smart practice using predefined exercises and referencing documents and situations specific to the client organisation where possible."
+                ]
             }
         }
          
